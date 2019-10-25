@@ -18,7 +18,7 @@ setup(
         author = 'Harsha Renkila',
         author_email = 'renkilaharsha1@gmail.com',
         packages=['speech_2_text','speech_2_text.submodule'],
-        install_requires=['SpeechRecognition',pyaudio],
+        install_requires=['SpeechRecognition','pyaudio'],
         project_urls = {
             'Bug Reports' : 'https://github.com/renkilaharsha/speech_to_text/issues',
             'Source' : 'https://github.com/renkilaharsha/speech_to_text'
