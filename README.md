@@ -88,7 +88,7 @@ The speech converted using Google Speech API is sent as a parameter to the Abbre
 
     Input : Triple A ,Output : AAA;
     Input : Dollars 2 ,Output : $2;
-    Input : 25 degrees, Output : 25 °C;
+    Input : 25 degrees Celsius, Output : 25 °C;
 
 As we can see above, quantification(double,triple,etc.), units of temperature(Fahrenheit, Celsius,etc.) and monetary units(Rupees, Dollars,etc.) have been implemented as a part of this code.
 
