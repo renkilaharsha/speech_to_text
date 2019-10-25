@@ -23,7 +23,7 @@ Required installations:
 
 2. Change directory
 
-        cd speech_to_text-master/speech_2_text
+        cd speech_to_text-master/
         
  3. Install the setup.py file
  
