@@ -1,5 +1,5 @@
 
-# Speech to text conversion #
+# Speech to Text conversion #
 
 --------
 Prerequisites 
