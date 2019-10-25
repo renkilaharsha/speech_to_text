@@ -90,19 +90,19 @@ Like above example we can invoke any functionality into main function.
  
  New functionality :- Sentimentment analysis of speaker(wheather the speech is positive or negative or neutral)  
  
- 1. Define the rules of functionalities in the ina file.
+   1. Define the rules of functionalities in the ina file.
  
- 2. Save the functionality defines in a seperate file.
+   2. Save the functionality defines in a seperate file.
  
- 3. Add the the Sub Module(sentiment) in the module(Project).
+   3. Add the the Sub Module(sentiment) in the module(Project).
  
  Example:
  
- a) Create a directory called Sentiment  in the project directory.
+   a) Create a directory called Sentiment  in the project directory.
  
- b) Create a python file called  sentiment.py and __init__.py
+   b) Create a python file called  sentiment.py and __init__.py
  
- C) Define the rules in a function called senti_analysis() in sentiment.py
+   c) Define the rules in a function called senti_analysis() in sentiment.py
  
  
  ### Directory design  changes  to :###
