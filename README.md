@@ -82,7 +82,7 @@ Example:
 Design
 ------
 
-speech_to_text.ipynb uses Google Speech Recognition API to convert the given English speech to text. Sample rate and chunk size are two arguments in the speech API used. The default sample rate(48000 samples per second) and chunk size of 10240 Bytes has been considered as the storage space which handles around 1-2 lines of speech. Chunk size has the flexibilty to be increased so that it can handle sufficiently large amounts of data. 
+speech_2_text package uses Google Speech Recognition API to convert the given English speech to text. Sample rate and chunk size are two arguments in the speech API used. The default sample rate(48000 samples per second) and chunk size of 10240 Bytes has been considered as the storage space which handles around 1-2 lines of speech. Chunk size has the flexibilty to be increased so that it can handle sufficiently large amounts of data. 
 
 The speech converted using Google Speech API is sent as a parameter to the Abbreviation class invoked from package called Abbreviations in main program. The Abbreviation class invokes convert function which takes the input as text and generates the processed text as output. For instance, 
 
