@@ -35,7 +35,7 @@ Required installations:
  Usage of package speech to text
  ------------
  
-     >>> from speech_2_text.s_2_p import speech_2_text 
+     >>> from speech_2_text.s_2_t import speech_2_text 
      >>> var = speech_2_text(48000,2048) 
      >>> var.convert()
      ALSA lib pcm.c:2495:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
