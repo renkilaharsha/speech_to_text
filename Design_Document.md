@@ -87,7 +87,7 @@ Like above example we can invoke any functionality into main function.
  
  ## To include the new functionality into the existing project ##
  
- New functionality :- Sentimentment analysis of speaker(wheather the speech is positive or negative or neutral)  
+ New functionality :- Sentiment analysis of speaker(whether the speech is positive or negative or neutral)  
  
    1. Define the rules of functionalities in a file.
  
