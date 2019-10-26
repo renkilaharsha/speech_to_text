@@ -25,8 +25,12 @@ Required installations:
 2. Change directory
 
         cd speech_to_text-master/
+
+3. Installing required packages
+
+        pip3 install -r requirements.txt      
         
- 3. Install the setup.py file
+4. Install the setup.py file
  
         python3 setup.py install 
                       or
