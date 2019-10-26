@@ -28,7 +28,9 @@ Required installations:
 
 3. Installing required packages
 
-        pip3 install -r requirements.txt      
+        pip3 install -r requirements.txt   
+                     or
+        sudo pip3 install -r requirements.txt
         
 4. Install the setup.py file
  
