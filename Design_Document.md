@@ -1,6 +1,6 @@
-# Designing a spoken english to written english conversion system #
+# Designing a spoken English to written English conversion system #
 
-Designing the speech to text project will require continous update/addition  of rules according to the requirement. The continuous update/addtion of rules will not affect the previously defined rules. To achieve the above mentioned type of project, the project has to define in **modular progamming**.
+Designing the speech to text project will require continous updation/addition  of rules according to the requirement. The continuous updation/addition of rules will not affect the previously defined rules. To achieve the above mentioned type of project, the project has to be defined in **modular progamming**.
 
     Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
     
@@ -8,7 +8,7 @@ Designing the speech to text project will require continous update/addition  of 
 Design
 ------------------
 
- **Functionalities(Say)** :-
+ **Functionalities(say)** :-
  
       1. Converting Speech to text.
       2. Taking care of Abbreviation.
@@ -43,7 +43,6 @@ Design
   
 3. Define a new program which imports the defined functionalities and  invokes the functionalities required.
 
-Which ever functionalities defined are required can be used in the main.py program.
 
   Example:
       
@@ -82,7 +81,7 @@ Like above example we can invoke any functionality into main function.
             -----> __init__.py
             
             
-           __init__.py file existing tells python complier that the folder is an module.
+           __init__.py file existing tells python compiler that the folder is a module.
   
       
  
@@ -90,9 +89,9 @@ Like above example we can invoke any functionality into main function.
  
  New functionality :- Sentimentment analysis of speaker(wheather the speech is positive or negative or neutral)  
  
-   1. Define the rules of functionalities in the ina file.
+   1. Define the rules of functionalities in a file.
  
-   2. Save the functionality defines in a seperate file.
+   2. Save the functionality defined in a seperate file.
  
    3. Add the the Sub Module(sentiment) in the module(Project).
  
@@ -132,7 +131,7 @@ Like above example we can invoke any functionality into main function.
  
  ## Using the new defined functionality in the existing project ##
  
- To use the new functionality we need not to change the existing sub modules and only change the main.py function.
+ To use the new functionality we need not change the existing sub modules and only change the main.py.
  
   Example:
       
@@ -151,9 +150,9 @@ Like above example we can invoke any functionality into main function.
        
        ------------
  
- In the above example we just invoked the senti_analysis function and used in the main.py with out affecting the previously defined functionalities like monetory_units  etc..
+ In the above example we just invoked the senti_analysis function and used in the main.py without effecting the previously defined functionalities like monetory_units  etc..
  
  
- So by defining the rules which are independent will allow us to add new funcionalities with out affecting the previously defined functionalities.
+ So by defining the rules which are independent will allow us to add new funcionalities without effecting the previously defined functionalities.
  
  
