@@ -94,7 +94,7 @@ speech_2_text package uses Google Speech Recognition API to convert the given En
 The speech converted using Google Speech API is sent as a parameter to the Abbreviation class invoked from package called Abbreviations in main program. The Abbreviation class invokes convert function which takes the input as text and generates the processed text as output. For instance, 
 
     Input : Triple A ,Output : AAA;
-    Input : Dollars 2 ,Output : $2;
+    Input : 2  Dollars ,Output : $2;
     Input : 25 degrees Celsius, Output : 25 °C;
 
 As we can see above, quantification(double,triple,etc.), units of temperature(Fahrenheit, Celsius,etc.) and monetary units(Rupees, Dollars,etc.) have been implemented as a part of this code.
